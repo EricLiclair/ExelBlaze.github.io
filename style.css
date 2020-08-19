@@ -1,5 +1,10 @@
 html {
+  
   font-size: 62.5%;
+}
+
+.body {
+  background-color: rgba(3, 0, 29, 1);
 }
 
 .lander {
@@ -17,9 +22,10 @@ html {
 
 .navigation {
   position: relative;
-  top: 20vh;
+  top: 10vh;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 .navigation ul {
@@ -29,7 +35,7 @@ html {
 
 #icon {
   position: relative;
-  top: 40vh;
+  top: 44vh;
   color: #1eabd6;
   font-size: 3rem;
   margin: 2rem;
@@ -41,8 +47,38 @@ html {
 
 .display4 {
   font-family: 'Roboto', sans-serif;
-
   font-size: 3rem;
-  font-weight: 100;
-  color: #f2f2f4;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+
+.addon {
+  margin: 0;
+  padding: 0;
+  height: 1rem;
+  width: 1rem;
+  background-color: #ffffff;
+  transition: linear 2s;
+  position: relative;
+  bottom: 10rem;
+  left: 49.5%;
+  border-radius: 50%;
+  z-index: 0;
+
+  
+
+}
+
+@keyframes bounce {
+  30% {bottom: 20rem;}
+  50% {bottom: 9.9rem;}
+  70% {bottom: 10rem;}
+}
+
+.addon:hover {
+  background-color: #d65d7a;
+  animation-name: bounce;
+  animation-duration: 4s;
+
 }
