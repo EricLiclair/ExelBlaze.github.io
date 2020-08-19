@@ -7,7 +7,7 @@ html {
   margin: 0;
   background-color: rgba(3, 0, 29, 1);
   background-image: url("./images/inco.svg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -31,7 +31,7 @@ html {
   position: relative;
   top: 40vh;
   color: #1eabd6;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 2rem;
 }
 
@@ -42,7 +42,7 @@ html {
 .display4 {
   font-family: 'Roboto', sans-serif;
 
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 100;
   color: #f2f2f4;
 }
