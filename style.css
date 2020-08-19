@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+.lander {
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(3, 0, 29, 1);
+  background-image: url("./images/inco.svg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  
+
+}
+
+.navigation {
+  position: relative;
+  top: 20vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+#icon {
+  color: #1eabd6;
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+#icon:hover {
+  color: #f2f2f4;
+}
+
+.display4 {
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 3rem;
+  color: #f2f2f4;
+}
