@@ -29,7 +29,7 @@ html {
 
 #icon {
   color: #1eabd6;
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 2rem;
 }
 
@@ -40,6 +40,7 @@ html {
 .display4 {
   font-family: 'Roboto', sans-serif;
 
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 200;
   color: #f2f2f4;
 }
