@@ -28,6 +28,8 @@ html {
 }
 
 #icon {
+  position: relative;
+  top: 40vh;
   color: #1eabd6;
   font-size: 2rem;
   margin: 2rem;
@@ -40,7 +42,7 @@ html {
 .display4 {
   font-family: 'Roboto', sans-serif;
 
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 100;
   color: #f2f2f4;
 }
