@@ -31,7 +31,7 @@ html {
   position: relative;
   top: 40vh;
   color: #1eabd6;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 2rem;
 }
 
@@ -42,7 +42,7 @@ html {
 .display4 {
   font-family: 'Roboto', sans-serif;
 
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 100;
   color: #f2f2f4;
 }
